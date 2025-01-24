@@ -2,14 +2,14 @@
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center h-screen">
-      <div className="flex flex-col p-5 gap-4">
-        <img className="w-32" src="/logo.svg"></img>
+    <div className="h-screen flex flex-col mt-6 ">
+      <div className="flex flex-col gap-4 ">
+        <img className="w-32 ml-5" src="/logo.svg"></img>
         <img className="w-full  " src="/hero-mobile.jpg"></img>
       </div>
       <div className="text-[#d8acac] p-6 flex flex-col h-1/2 justify-around items-center text-center">
         <div className="flex flex-col gap-4">
-          <p className="text-5xl font-josefinSans uppercase ">
+          <p className="text-5xl font-josefinSans uppercase font-light">
             We&apos;re <br />
             <span className="text-[#413a3a]">
               Coming
